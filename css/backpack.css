@@ -102,7 +102,6 @@ header .topright{
 }
 .price_info{
 	width: 100%;
-	height: 1.6rem;
 	line-height: 1rem;
 	margin-left: 2.4rem;
 	position: absolute;
@@ -122,13 +121,11 @@ header .topright{
 	margin-left: 0.2rem;
 	margin-right: 0.2rem;
 }
-.sub a{
+.sub{
 	box-shadow: 0.02rem 0.02rem 0.1rem 0.06rem #d5f8e4;
-	margin: 0 auto;
+	margin: 0.1rem auto;
 	width: 4rem;
 	height: 0.6rem;
-	background: linear-grain
-	margin-top: 0.74rem;
 	display: block;
 	background: linear-gradient(to right,#37e071, #32d699); /* 标准的语法 */
 	border-radius: 0.3rem;

@@ -131,5 +131,6 @@ li.active{
 	color: #fff;
 }
 .sub a{
+	cursor: pointer;
 	color: #fff;
 }

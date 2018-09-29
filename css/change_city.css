@@ -50,6 +50,9 @@ header .topright{
 	font-size: 0.28rem;
 	display: inline-block;
 }
+.search .pos h2 a{
+	color: #36a8fe;
+}
 .search span{
 	font-size: 0.2rem;
 }

@@ -47,6 +47,9 @@ header .topright{
 	top: -0.14rem;
 	left: 0;
 }
+.search .pos h2 a{
+	color: #36a8fe;
+}
 .search h2{
 	font-size: 0.28rem;
 	display: inline-block;
