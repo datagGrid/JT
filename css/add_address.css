@@ -77,7 +77,6 @@ main ul li .title .footer{
     font-weight: bold;
     position: absolute;
     right: 0;
-    top:0;
 }
 footer{
     display: flex;

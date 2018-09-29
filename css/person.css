@@ -179,7 +179,11 @@ section ul li span{
     position: absolute;
     right: 0;
 }
-
+section ul li:hover{
+    color:#fff;
+    background: rgba(0,0,0,0.15);
+    border-bottom: 1px solid #4ebbfe;
+}
 
 footer{
 	position: fixed;

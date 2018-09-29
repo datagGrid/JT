@@ -130,11 +130,6 @@ li.active{
 	background: #3bacfe;
 	color: #fff;
 }
-li.active em{
-	color: #3bacfe;
-}
-
 .sub a{
-	cursor: pointer;
 	color: #fff;
 }
