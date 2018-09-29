@@ -56,4 +56,25 @@ window.onload=function () {
             alert("手机号不可以为空");
         }
     }
+    $(".hezi").click(function () {
+        let time=30;
+        let t=setInterval(djs,1000);
+        function djs() {
+            $(".hezi p").text(`${time}S后重发`);
+            time--;
+            if(time==-1){
+                $(".hezi p").text(`获取验证码`);
+                clearInterval(t);
+            }
+        }
+        let yan=Math.round(Math.random()*9999);
+        setTimeout(fn,1000);
+        function fn(){
+            $(".number").val(yan);
+        }
+    })
+
+
+
+
 }
