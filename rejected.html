@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/rem.css">
     <link rel="stylesheet" href="css/refundbase.css">
-    <script src="js/select.js"></script>
     <link rel="stylesheet" href="css/revise.css">
     <link rel="stylesheet" href="css/rejected.css">
     <title>Document</title>
@@ -19,7 +18,7 @@
 <body>
 <header>
     <biv class="left">
-        <a href="refund.html"><i class="topleft iconfont icon-fanhui"></i></a>
+        <i class="topleft iconfont icon-fanhui"></i>
         <!--基本都没有-->
         <!-- <span class="small">关闭</span> -->
     </biv>
@@ -65,7 +64,7 @@
     </div>
 
 </main>
-<div class="refund blue status">
+<div class="refund blue ">
     <div class="only reason">
         <div class="tui blue">
             <div class="round blue"></div>
@@ -129,7 +128,7 @@
 
 </div>
 <div class="submit">
-    <a href="details.html"><button>提交</button></a>
+    <button>提交</button>
 </div>
 
 
@@ -145,11 +144,6 @@
                 <div class="round blue"></div>
                 <h2>已收到货</h2>
             </a>
-            <div class="select" style="opacity: 1">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -181,13 +175,8 @@
         <div class="only">
             <a href="javascript:;">
                 <div class="round blue"></div>
-                <h2>买错了</h2>
+                <h2>退运费</h2>
             </a>
-            <div class="select" style="opacity: 1">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -211,11 +200,6 @@
                 <div class="round blue"></div>
                 <h2>颜色／款式／型号与商品描述不符</h2>
             </a>
-            <div class="select">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -225,11 +209,6 @@
                 <div class="round blue"></div>
                 <h2>材质与商品描述不符</h2>
             </a>
-            <div class="select">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -239,11 +218,6 @@
                 <div class="round blue"></div>
                 <h2>做工粗糙有瑕疵</h2>
             </a>
-            <div class="select">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -253,11 +227,6 @@
                 <div class="round blue"></div>
                 <h2>质量问题</h2>
             </a>
-            <div class="select">
-                <div class="sel_fir">
-                    <div class="sel_sec"></div>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -297,11 +266,4 @@
         $(".money_rea").slideUp("fast");
         document.body.style.overflow="auto";
     })
-//    货物状态选中效果切换
-    let tui1=$(".ser_type .tui");
-    let select1=$(".ser_type .select");
-    select_effect(tui1,select1);
-    let tui2=$(".money_rea .tui");
-    let select2=$(".money_rea .select");
-    select_effect(tui2,select2);
 </script>
